@@ -1,0 +1,11 @@
+def Solve(x,y):
+  if x is not 0:
+    result=(y / x)
+    result1=(y % x)
+    print('Quotient: ',result,'\nRemainder: ',result1)
+  else:
+    print ('error')
+
+inp1=int(input('enter a divisor: '))
+inp2=int(input('enter a dividend: '))
+Solve(inp1,inp2)
